@@ -12,7 +12,7 @@ namespace Game.Scripts.Core
 
         public List<Item> Matches => _matches;
 
-        void Awake()
+        void Start()
         {
             _matches = new List<Item>();
         }

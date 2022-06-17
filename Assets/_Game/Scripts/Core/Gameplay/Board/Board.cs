@@ -24,7 +24,7 @@ namespace Game.Scripts.Core
 
         public Cell[,] Cells => _cells;
 
-        void Awake()
+        void Start()
         {
             _cells = new Cell[Constants.BoardWidth, Constants.BoardHeight];
 
